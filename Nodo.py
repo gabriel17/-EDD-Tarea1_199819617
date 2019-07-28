@@ -1,9 +1,5 @@
-class Nodo(object):
+class Nodo():
 	"""docstring for Nodo"""
-	def __init__(self, arg):
-		super(Nodo, self).__init__()
-		self.arg = arg
-	
-	def respuesta
-		print "Hola mundo" 
-	
+	def __init__(self, pdato, pnext=None):
+		self.dato = pdato
+		self.siguiente = pnext
