@@ -3,5 +3,6 @@ class Nodo(object):
 	def __init__(self, arg):
 		super(Nodo, self).__init__()
 		self.arg = arg
-		
+	
+	
 		
