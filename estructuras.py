@@ -4,5 +4,6 @@ class Nodo(object):
 		super(Nodo, self).__init__()
 		self.arg = arg
 	
+	def respuesta
+		print "Hola mundo" 
 	
-		
