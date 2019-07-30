@@ -96,10 +96,11 @@ class ListaSimple():
 				self.fin.dato = xNuevoDato
 			else:
 				xNodo = self.inicio
-				print("va a entrar al while")
+				#print("va a entrar al while")
 				while xNodo.siguiente != None:
-					print("entro en el while")
+					#print("entro en el while")
 					if xNodo.dato == xDato:
+						print("Se Modifica el Dato: " + xDato + " por: " + xNuevoDato)
 						xNodo.dato = xNuevoDato
 					xNodo = xNodo.siguiente
 
